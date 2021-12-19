@@ -10,7 +10,8 @@ progressArea = wrapper.querySelector(".progress-area"),
 progressBar = progressArea.querySelector(".progress-bar"),
 musicList = wrapper.querySelector(".music-list"),
 moreMusicBtn = wrapper.querySelector("#more-music"),
-closemoreMusic = musicList.querySelector("#close");
+closemoreMusic = musicList.querySelector("#close"),
+volume = document.querySelector("#volume");
 
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 isMusicPaused = true;
